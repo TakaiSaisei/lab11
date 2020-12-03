@@ -1,2 +1,6 @@
-<h1>Logic#input</h1>
-<p>Find me in app/views/logic/input.html.erb</p>
+<%= form_tag("/logic/view", :method => "get") do %>
+  <%= label_tag("Поиск до:") %>
+  <%= text_field_tag(:limit, '100') %> <br/>
+  <br/>
+  <%= submit_tag("Найти автоморфные числа") %>
+<% end %>

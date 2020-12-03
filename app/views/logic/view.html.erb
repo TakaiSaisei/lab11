@@ -1,2 +1,17 @@
-<h1>Logic#view</h1>
-<p>Find me in app/views/logic/view.html.erb</p>
+<h1>Результат</h1>
+
+<style>
+    tr > * {
+        text-align: center;
+    }
+</style>
+
+<table>
+  <% @result.each { |row| %>
+    <tr>
+      <td><%= row[0] %></td>
+      <td><%= row[1] %></td>
+    </tr>
+  <% } %>
+</table>
+<%= link_to "Вернуться назад", :root %>

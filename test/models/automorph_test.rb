@@ -4,7 +4,7 @@ class AutomorphTest < ActiveSupport::TestCase
   test 'add and search in db' do
     instance = Automorph.new(input: 1, result: ActiveSupport::JSON.encode([[1, 1]]))
     assert instance.save
-    assert_equal ActiveSupport::JSON.encode([[1, 1]]), Automorph.find_by_input(1).result
+    assert_equal ActiveSupport::JSON.encode([[1, 1]]), Automorph.find_by(input: 1).result
   end
 
   test 'check adding not unique value' do

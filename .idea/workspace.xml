@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7a5b95a1-0cb8-4777-bbf2-2a7702c95a75" name="Default Changelist" comment="Remove useless route">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/logic_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/logic_controller.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/controllers/logic_controller_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/controllers/logic_controller_test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/models/automorph_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/models/automorph_test.rb" afterDir="false" />
-    </list>
+    <list default="true" id="7a5b95a1-0cb8-4777-bbf2-2a7702c95a75" name="Default Changelist" comment="Some fixes" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -179,7 +174,7 @@
       <workItem from="1607088217075" duration="181000" />
       <workItem from="1607088956828" duration="3296000" />
       <workItem from="1607092958881" duration="2134000" />
-      <workItem from="1607183668288" duration="518000" />
+      <workItem from="1607183668288" duration="542000" />
     </task>
     <task id="LOCAL-00001" summary="Init project">
       <created>1606963091424</created>
@@ -195,7 +190,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606972515731</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Some fixes">
+      <created>1607184209250</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1607184209250</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,7 +218,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init project" />
     <MESSAGE value="Remove useless route" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove useless route" />
+    <MESSAGE value="Some fixes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Some fixes" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/lab11@db_rollback__lab11.rcov" NAME="db:rollback: lab11 Coverage Results" MODIFIED="1606969654426" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="lab11" />

@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7a5b95a1-0cb8-4777-bbf2-2a7702c95a75" name="Default Changelist" comment="Rubocop'ed">
+    <list default="true" id="7a5b95a1-0cb8-4777-bbf2-2a7702c95a75" name="Default Changelist" comment="Rubocop'ed (again)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/logic_controller.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/logic_controller.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,9 +42,9 @@
       <command value="rails db:migrate RAILS_ENV=development" />
       <command value="@result" />
       <command value="rails db:migrate RAILS_ENV=test" />
-      <command value="rails test" />
       <command value="rubocop" />
       <command value="rubocop -A" />
+      <command value="rails test" />
     </option>
   </component>
   <component name="RunManager" selected="Rails.Development: lab11">
@@ -181,7 +180,7 @@
       <workItem from="1607092958881" duration="2134000" />
       <workItem from="1607183668288" duration="542000" />
       <workItem from="1607184878373" duration="306000" />
-      <workItem from="1607221900816" duration="416000" />
+      <workItem from="1607221900816" duration="726000" />
     </task>
     <task id="LOCAL-00001" summary="Init project">
       <created>1606963091424</created>
@@ -211,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607185168816</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Rubocop'ed (again)">
+      <created>1607222408184</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1607222408184</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,7 +240,8 @@
     <MESSAGE value="Remove useless route" />
     <MESSAGE value="Some fixes" />
     <MESSAGE value="Rubocop'ed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Rubocop'ed" />
+    <MESSAGE value="Rubocop'ed (again)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Rubocop'ed (again)" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/lab11@db_rollback__lab11.rcov" NAME="db:rollback: lab11 Coverage Results" MODIFIED="1606969654426" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="lab11" />

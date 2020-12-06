@@ -22,7 +22,8 @@ class LogicController < ApplicationController
   end
 
   def dbview
-    result = Automorph.all.map { |element| { input: element.input, result: ActiveSupport::JSON.decode(element.result) } }
+    result =
+      Automorph.all.map { |element| { input: element.input, result: ActiveSupport::JSON.decode(element.result) } }
 
     respond_to do |format|
       format.xml { render xml: result.to_xml }
